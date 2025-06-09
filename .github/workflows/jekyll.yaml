@@ -1,0 +1,49 @@
+name: Build & Deploy Jekyll
+
+on:
+  push:
+    branches: [ main ]          # 只要 main 有提交就触发
+  workflow_dispatch:            # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2            # 任意支持的版本
+          bundler-cache: true          # 缓存 gem，提高速度
+
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Build site with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build -d _site
+
+      # 把 _site 打包成 artifact，交给下一步部署
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions: { pages: write, id-token: write }
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
