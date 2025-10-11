@@ -1,0 +1,6 @@
+main:
+  - title: "about"
+    url: /about/
+  - title: "teaching"
+    url: /teaching/
+

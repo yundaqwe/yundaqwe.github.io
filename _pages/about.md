@@ -6,38 +6,36 @@ subtitle: Ph.D. Student in Computer Science, Tel Aviv University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Blavatnik School of Computer Science</p>
     <p>Tel Aviv University</p>
-    <p><a href="mailto:zebyun@tauex.tau.ac.il">zebyun@tauex.tau.ac.il</a></p>
-    <p><a href="https://zebin-yun.github.io">zebin-yun.github.io</a></p>
+    <p><a href="mailto:zebinyun@mail.tau.ac.il">zebinyun@mail.tau.ac.il</a></p>
+    <p><a href="yundaqwe.github.io">yundaqwe.github.io</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student at the Blavatnik School of Computer Science, Tel Aviv University, advised by Prof. Lior Wolf and Dr. Mahmood Shafiei. My research explores data augmentation, video understanding, and reliable machine learning with applications to surgical intelligence and adversarial robustness.
+I am a Ph.D. student at the Blavatnik School of Computer Science, Tel Aviv University, advised by Dr. Eyal Ronen  and Dr. Mahmood Sharif. My research focuses on machine learning security and privacy. <span style="color:red">Always happy to connect and chat, just drop me an email!</span>
 
 ## Education
 
-- **Tel Aviv University (TAU)** — Ph.D. in Computer Science (Oct. 2023 – Jun. 2026, expected)<br>
-  Advisors: Prof. Lior Wolf and Dr. Mahmood Shafiei · Cumulative GPA: 96.2/100
+- **Tel Aviv University (TAU)** — Ph.D. in Computer Science (Apr. 2025 – Jun. 2030, expected)<br>
+  Advisors: Dr. Eyal Ronen  and Dr. Mahmood Sharif 
 - **Tel Aviv University (TAU)** — M.Sc. in Computer Science (Oct. 2023 – Apr. 2025)<br>
-  Cumulative GPA: 96.2/100
 - **Southern University of Science and Technology (SUSTech)** — B.Eng. in Computer Science (Aug. 2019 – Jun. 2023)<br>
-  Cumulative GPA: 3.91/4.00
 
 ## Awards
 
@@ -46,34 +44,17 @@ I am a Ph.D. student at the Blavatnik School of Computer Science, Tel Aviv Unive
 
 ## Publications
 
-1. **Transferal Video Augmentation: When Do Transformations Matter?**<br>
-   Y. Luo, A. Wengerter, E. Rotem, M. Shafiei, and Z. Yun. *Workshop on Boosting Adversarial Example Transferability by Combining Data Augmentations*, 2023.
-2. **Surgical Video Scene Retrieval: Evaluate, Enhance, and Expand**<br>
-   Z. Yun, T. Nguyen, T. Zhang, Q. Fan, J. Zhang, and F. Wang. *Workshop on Advancements in Surgical Video Understanding in Healthcare*, 2023.
+1. **The Ultimate Combo: Boosting Adversarial Example Transferability by Composing Data Augmentations**<br>
+   Z. Yun, A. Weingarten, E. Ronen, and M. Sharif. *ACM Workshop on Artificial Intelligence and Security (AISec)*, 2024.
+2. **Privacy-Preserving Collaborative Genomic Research: A Real-Life Deployment and Vision**<br>
+   Z. Rahmani, N. Shahini, N. Gat, Z. Yun, Y. Jiang, O. Farchy, Y. Harel, V. Chaudhary, M. Sharif, and E. Ayday. *ACM Workshop on Cybersecurity in Healthcare (HealthSec)*, 2024.
 
-## Preprints
 
-- **The Impact of Data Augmentation on Adversarial Example Transferability**<br>
-  Z. Yun, Y. Zhao, Q. Fang, X. Ding, S. Ge, Y. Fan, and J. Wang.
-- **Counterfactual Learning for Robust Surgical Video Representation**<br>
-  Z. Yun, T. Nguyen, Q. Fan, and F. Wang.
 
 ## Experience
 
-- **Graduate Researcher, Tel Aviv University** (Oct. 2023 – Present)<br>
-  Conducting research on data augmentation, adversarial transferability, and video understanding.
-- **Research Intern, Medical Robotics and Computer Vision Lab, SUSTech** (Jul. 2022 – Jun. 2023)<br>
-  Developed surgical video scene retrieval systems and large-scale video representation learning pipelines.
-- **Undergraduate Research Assistant, SUSTech** (Sep. 2021 – Jun. 2022)<br>
-  Explored counterfactual data augmentation strategies for improving recognition robustness.
+- **Graduate Researcher, Tel Aviv University** (Oct. 2023 – Present)
 
 ## Service
 
-- Conference reviewer: NeurIPS, ICML, ICLR, IJCAI
-- Journal reviewer: Transactions on Machine Learning Research (TMLR)
-- AAAI reviewer (2025)
-
-## Skills
-
-- **Programming:** Python (PyTorch, TensorFlow, scikit-learn), C/C++, MATLAB, LaTeX
-- **Focus Areas:** Video understanding, data augmentation, adversarial robustness, surgical intelligence
+- Conference reviewer: ICLR (2025,2026), AAAI (2026), S&P (2025)
