@@ -2,96 +2,63 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Zebin Yun
+    - name: Affiliation
+      value: Blavatnik School of Computer Science, Tel Aviv University
+    - name: Research
+      value: Security and privacy of machine learning
+    - name: Email
+      value: zebinyun@mail.tau.ac.il
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Tel Aviv University (TAU), Israel
+      year: 2025 - 2030 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisors&#58; Dr. Eyal Ronen and Dr. Mahmood Sharif
+        - Research on the security and privacy of machine learning
+    - title: M.Sc. in Computer Science
+      institution: Tel Aviv University (TAU), Israel
+      year: 2023 - 2025
+    - title: B.Eng. in Computer Science
+      institution: Southern University of Science and Technology (SUSTech), China
+      year: 2019 - 2023
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Researcher
+      institution: Tel Aviv University, Israel
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Adversarial machine learning, backdoor attacks on foundation models, and privacy-preserving computation
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Graduate Scholarship, Tel Aviv University
+    - year: 2020
       items:
-        - Max Planck Medal
+        - Second Prize, Outstanding Student Scholarship, SUSTech
 
-- title: Academic Interests
+- title: Academic Service
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Conference Reviewer
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - ICLR (2025, 2026)
+        - AAAI (2026)
+        - IEEE S&amp;P (2025)
 
-- title: Other Interests
-  type: list
+- title: Research Interests
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Machine-Learning Security &amp; Privacy
+      items:
+        - Adversarial examples and their transferability
+        - Backdoor attacks on foundation models
+        - Privacy-preserving computation

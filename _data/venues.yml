@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"RAID":
+  url: https://www.raid-symposium.org/
+  color: "#a71d31"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"AISec":
+  color: "#1a5276"
 
-"Vision":
-  color: "#009f36"
+"HealthSec":
+  color: "#196f3d"
